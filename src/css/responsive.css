@@ -1,0 +1,123 @@
+@media(max-width: 768px){
+  main{
+    height: auto;
+  }
+   
+    .header{
+    display: flex;
+    flex-direction: column;
+    margin: auto;
+   }
+
+   .header-information{
+    
+    width: 300px;
+    text-align: center;
+    align-items: center;
+   }
+
+   .title-header{
+    margin: auto;
+    font-size: 30px;
+   }
+
+   .paragraph-header{
+     margin-bottom: 15px;
+     margin-top: 15px;
+   }
+
+   .stars{
+    
+    width: 100%;
+    margin: auto;
+     padding: 10px;
+   }
+
+   .stars-reviews{
+      width: 100%;
+      max-width: 250px;
+      height: 40px;
+      display: flex;
+     justify-content: end;
+     
+    
+   }
+
+   .star-title-review, .star-title-guru, .star-title-best-tech{
+     margin-top: 15px;
+    margin-left: -50px;
+     width: 100%;
+     max-width: 170px;
+     
+     
+    
+   }
+
+
+   .stars .image-star{
+    width: 100%;
+    max-width: 10px;
+    height: 10px;
+    padding: 0;
+    margin-right: -20px;
+    padding-right: 10px;
+    padding-left: 10px;
+    
+   }
+
+   .stars-guru, .stars-best-tech{
+    margin: auto auto auto 2px;
+      width: 100%;
+      max-width: 250px;
+      height: 40px;
+      display: flex;
+     justify-content: end;
+   }
+
+   .social-proof-section{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    
+    
+   }
+   .card-information-colton{
+   
+    width: 100%;
+    max-width: 250px;
+   }
+
+   .paragraph-colton{
+   width: 100%;
+   max-width: 400px;
+   padding: 8px;
+  
+   }
+   .card-information-irene{
+    margin: 10px auto auto auto;
+    
+    width: 100%;
+    max-width: 250px;
+   }
+
+   .paragraph-irene{
+    width: 100%;
+    max-width: 400px;
+    padding: 8px;
+
+   }
+
+   .card-information-anne{
+    width: 100%;
+    max-width: 250px;
+    margin: 10px auto auto auto
+   }
+
+   .paragraph-anne{
+    width: 100%;
+    max-width: 400px;
+    padding: 8px;
+   }
+
+   
+}

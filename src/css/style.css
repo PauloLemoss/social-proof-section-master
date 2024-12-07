@@ -1,0 +1,183 @@
+body{
+    background-color:  #F0EDED;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    min-height: 100vh;
+    font-family: "League Spartan", sans-serif;
+}
+main{
+    background-color: hsl(0, 0%, 100%);
+    width: 100%;
+    max-width: 1100px;
+    height:  500px;
+}
+.header{
+    display: flex;
+    width: 100%;
+    max-width: 1100px;
+    padding: 40px;
+    
+}
+.header-information{
+    display: flex;
+    flex-direction: column;
+   
+}
+.title-header{
+    color: hsl(300, 43%, 22%);
+    width: 100%;
+    max-width: 200px;
+    margin-bottom: 10px;
+}
+.paragraph-header{
+    width: 100%;
+    max-width: 800px;
+    line-height: 18px;
+}
+.stars{
+    display: flex;
+    flex-direction: column;
+   gap: 20px;
+   margin-left: 150px;
+   width: 100%;
+}
+
+.image-star{
+    width: 12px;
+    padding: 2px;
+    height: 12px;
+}
+
+.stars-reviews{
+    display: flex;
+    background-color:  hsl(300, 24%, 96%);
+    border-radius: 10px;
+    height: 30px;
+    width: 300px;
+    padding-top: 10px;
+    padding-left: 10px;
+
+ 
+}
+
+.star-title-review{
+    color:hsl(300, 43%, 22%);
+    margin-left: 10px;
+    margin-top: 3px;
+}
+
+.stars-guru{
+    display: flex;
+    background-color:  hsl(300, 24%, 96%);
+    border-radius: 10px;
+    height: 30px;
+    width: 300px;
+    padding-top: 10px;
+    padding-left: 10px;
+    margin-left: 30px;
+   
+}
+
+.star-title-guru{
+    color:hsl(300, 43%, 22%);
+    margin-left: 10px;
+    margin-top: 3px;
+}
+
+.stars-best-tech{
+    display: flex;
+    background-color:  hsl(300, 24%, 96%);
+    border-radius: 10px;
+    height: 30px;
+    width: 300px;
+    padding-top: 10px;
+    padding-left: 10px;
+    margin-left: 70px;
+    
+}
+
+.star-title-best-tech{
+    color:hsl(300, 43%, 22%);
+    margin-left: 10px;
+    margin-top: 3px;
+}
+
+.social-proof-section{
+    display: flex;
+    padding: 10px;
+}
+
+.card-information-colton{
+    background-color: hsl(300, 43%, 22%);
+   width: 100%;
+   max-width: 300px;
+   padding: 10px;
+   border-radius: 7px;
+
+}
+
+.image-colton, .image-irene, .image-anne{
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    margin-left: 20px;
+}
+
+.information-colton, .information-irene, .information-anne{
+    display: flex;
+}
+.colton-status, .irene-status, .anne-status{
+    display: flex;
+    flex-direction: column;
+    margin-top: 10px;
+    margin-left: 10px;
+}
+
+.name-colton, .name-irene, .name-anne{
+    color: white;
+    font-size: 16px;
+    margin-bottom: 5px;
+}
+
+.verified-buyer-colton, .verified-buyer-irene, .verified-buyer-anne{
+    color: hsl(333, 80%, 67%);
+    font-size: 14px;
+}
+
+.paragraph-colton{
+    color: white;
+    padding: 10px;
+    line-height: 20px;
+}
+
+.card-information-irene{
+    background-color: hsl(300, 43%, 22%);
+    width: 100%;
+    max-width: 300px;
+    padding: 10px;
+    border-radius: 7px;
+    margin-top: 15px;
+    margin-left: 30px;
+}
+.paragraph-irene{
+    color: white;
+    padding: 10px;
+    line-height: 20px;
+    width: 270px;
+}
+.card-information-anne{
+    background-color: hsl(300, 43%, 22%);
+    width: 100%;
+    max-width: 300px;
+    padding: 10px;
+    border-radius: 7px;
+    margin-top: 25px;
+    margin-left: 30px;
+}
+.paragraph-anne{
+    color: white;
+    padding: 10px;
+    line-height: 20px;
+    width: 280px;
+}
